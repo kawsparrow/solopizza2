@@ -24,6 +24,7 @@ const Cart = () => {
     <div className="container container__cart">
       <div className="cart">
         blabla
+        test
         <div className="cart__top">
           <h2 className="content__title">
             <svg
