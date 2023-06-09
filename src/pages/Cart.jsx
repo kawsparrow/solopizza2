@@ -25,6 +25,7 @@ const Cart = () => {
       <div className="cart">
         <div className="cart__top">
           <h2 className="content__title">
+            blabla
             <svg
               width="18"
               viewBox="0 0 18 18"
