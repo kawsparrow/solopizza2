@@ -11,7 +11,7 @@ const Cart = () => {
   const totalCount = items.reduce((sum, item) => sum + item.count, 0);
 
   const onClickClear = () => {
-    if (window.confirm("ნამდვილად გნებავთ გაწმინდოთ კალათა?")) {
+    if (window.confirm("ნამდვილად გნებავთ გაასუფთავოთ კალათა?")) {
       dispatch(clearItems());
     }
   };
